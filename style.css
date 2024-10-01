@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#nav{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+    position: fixed;
+    width: 100%;
+    
+}
+
+#nav h3{
+    background-color: black;
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 20px;
+    margin-left: 5px;
+    border-radius: 50px;
+}
+
+#intro{
+    height: 45%;
+    width: 100%;
+    /* background-color: bisque; */
+    padding: 55px 60px;
+}
+
+#intro h1{
+    font-size: 100px;
+    line-height: 98px;
+    letter-spacing: -2px;
+}
+
+#place{
+    margin-top: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#place h3, #place h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#hero-image{
+    height: 90%;
+    width: 100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-2000.webp);
+    background-size: cover;
+}
+
+#about{
+    height: 45%;
+    width: 100%;
+    /* background-color: rgb(255, 185, 35); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+}
+
+#about h2{
+    width: 62%;
+    /* background-color: red; */
+    font-size: 70px;
+    line-height: 67px;
+    font-weight:600;
+    letter-spacing: -2px;
+}
+
+#about-part2{
+    height: 100%;
+    width: 35%;
+    border-left: 2px solid black;
+    padding: 0 60px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#about-part2 h3{
+    font-size: 33px;
+    font-weight: 600;
+}
+
+#icons{
+    
+}
+
+
+#icons i{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+#work{
+    height: 55%;
+    width: 100%;
+    border-top: 2px solid #000;
+    display: flex;
+    padding: 50px 60px;
+
+}
+
+#work1{
+    width: 35%;
+    height: 100%;
+    /* background-color: blue; */
+    border-right: 2px solid black;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#work1 h3{
+    font-size: 33px;
+}
+
+#work1 i{
+    font-size: 27px;
+}
+
+#work2{
+    height: 100%;
+    width: 65%;
+    /* background-color: red; */
+}
